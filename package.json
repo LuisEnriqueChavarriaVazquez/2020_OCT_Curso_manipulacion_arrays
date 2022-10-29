@@ -1,0 +1,25 @@
+{
+  "name": "2020_oct_curso_manipulacion_arrays",
+  "version": "1.0.0",
+  "description": "Es un curso sobre el tema de los arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisEnriqueChavarriaVazquez/2020_OCT_Curso_manipulacion_arrays.git"
+  },
+  "keywords": [
+    "arrays"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisEnriqueChavarriaVazquez/2020_OCT_Curso_manipulacion_arrays/issues"
+  },
+  "homepage": "https://github.com/LuisEnriqueChavarriaVazquez/2020_OCT_Curso_manipulacion_arrays#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
