@@ -1,0 +1,27 @@
+const matriz = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+const matriz2 = [
+    [1, 2, 3],
+    [4, 5, [6,6.1,6.2,6.3, [4.1,4.2,4.3,4.4,4.5,[7.7]]]],
+    [7, 8, 9],
+  ];
+
+//Podemos aplanar la matriz sin tener que usar fors.
+/*
+*   No importa la cantidad de niveles que tengamos
+*   Por lo general para no usar fors anidados
+*   lo que hay que usar es la recursión
+*/
+
+//Solo me apalana hasta el primer nivel
+const plana1 = matriz.flat(1);
+console.log(plana1);
+
+//Solo apalana hasta el tercer nivel
+const plana2 = matriz2.flat(3);
+console.log(plana2);
+
